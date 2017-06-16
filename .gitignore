@@ -1,0 +1,31 @@
+# Ignore project files
+*.sln
+*.csproj
+*.userprefs
+
+# Ignore vs code project files
+.vscode/
+
+# Ignore Emacs temp files
+/#*#
+.#*
+
+# Ignore Unity temp files
+/project/nexgen-dragon/[Ll]ibrary/
+/project/nexgen-dragon/[Tt]emp/
+/project/nexgen-dragon/[Oo]bj/
+/project/nexgen-dragon/[Bb]uild/
+/project/nexgen-dragon/[Bb]uilds/
+
+/Project/nexgen-dragon/[Pp]rojectSettings/ProjectVersion.txt
+
+# Ignore Mac OS files
+*.DS_Store
+
+# Ignore generator temp directory
+/project/tools/code_generator/.idea/
+/project/tools/code_generator/db_codes/
+/project/tools/code_generator/__pycache__/
+#/project/tools/code_generator/configs/
+/project/tools/code_generator/generated_json/
+/project/tools/code_generator/config_codes/
